@@ -9,14 +9,29 @@
   <body>
     <h2>Form using Javascript</h2>
 
-    <form name="aForm" onsubmit="aFunc()";  return false>
-      <label for="aName">Enter Username: </label>
-      <input type="text" name="user_name" id="aName" /><br />
-
-      <label for="aPass">Password: </label>
-      <input type="password" name="user_pass" id="aPass" /><br />
-
-      <input type="submit" value="Login" />
+    <form name="aForm" onsubmit="aFunc()" ; return false>
+      <table>
+        <tr>
+          <td>
+            <label for="aName">Enter Username: </label>
+          </td>
+          <td>
+            <input type="text" name="user_name" id="aName" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="aPass">Password: </label>
+          </td>
+          <td>
+            <input type="password" name="user_pass" id="aPass" />
+          </td>
+        </tr>
+        <tr>
+            <td><input type="submit" value="Login" /></td>
+            <td><input type="reset" value="Clear" /></td>
+        </tr>
+      </table>
     </form>
     <script src="script.js"></script>
   </body>
