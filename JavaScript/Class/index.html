@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class JS</title>
+</head>
+<body>
+    <h2>Classes in ES6 javascript</h2>
+    <script>
+        class Student{
+            constructor(roll, name){
+                this.roll = roll;
+                this.name = name;
+            }
+            printDetails(){
+                console.log(`Roll no ${this.roll} belongs to ${this.name}`);
+            }
+        }
+
+        var one = new Student(1001, "Abhay");
+        var two = new Student(1005, "Dikshant");
+
+        one.printDetails();
+        two.printDetails();
+
+    </script>
+</body>
+</html>
