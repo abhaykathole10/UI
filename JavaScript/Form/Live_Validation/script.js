@@ -5,7 +5,7 @@ function myFunc() {
     err_msg.innerHTML = 'Too small'
     err_msg.style.color = 'red'
     user_name.style.backgroundColor = 'aqua'
-  } else if (user_name.value.length == 3) {
+  } else if (user_name.value.length === 5) {
     err_msg.innerHTML = 'Perfect'
     err_msg.style.color = 'green'
   } else if (user_name.value.length > 7) {
