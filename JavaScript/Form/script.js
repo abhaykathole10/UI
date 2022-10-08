@@ -1,11 +1,17 @@
-var user_name = document.aForm.user_name
-var user_pass = document.aForm.user_pass
-
-var userName = 'abhaykathole10'
-var userPass = 'abhay@123'
-
 function aFunc() {
-  if (user_name.value == userName && user_pass.value == userPass) {
+  var user_name = document.aForm.user_name.value
+  var user_pass = document.aForm.user_pass.value
+
+  var userName = 'abhaykathole10'
+  var userPass = 'abhay@123'
+
+  if (user_name == '' && user_pass == '') {
+    alert('Please enter Credentials')
+  } else if (user_name == '') {
+    alert('Please enter username')
+  } else if (user_pass == '') {
+    alert('Please enter password')
+  } else if (user_name == userName && user_pass == userPass) {
     alert('Login Successully')
   } else alert('Invalid Credentials')
 }
