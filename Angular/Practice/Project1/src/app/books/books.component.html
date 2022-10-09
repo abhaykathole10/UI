@@ -1,10 +1,15 @@
 <h2>Interpolation</h2>
 
 <!-- String Interpolation -->
+<h2>String Interpolation</h2>
 <p>Hello {{fname}} {{lname}} !</p>
 
 <!-- Property Binding -->
-
+<h2>Property Binding</h2>
 <button bind-disabled = isWorking>Click Here</button><br><br>
 
-<button [disabled] = isWorking>Click Here</button>
+<button [disabled] = isWorking>Click Here</button><br><br>
+
+<!-- Event Binding -->
+<h2>Event Binding</h2>
+<button (click)="myFunc()">Click</button>

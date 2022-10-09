@@ -13,6 +13,10 @@ export class BooksComponent implements OnInit {
   isWorking: boolean = false
   constructor() { }
 
+  myFunc(){
+    alert("You just learnt Event binding")
+  }
+
   ngOnInit(): void {
   }
 
