@@ -7,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BooksComponent implements OnInit {
 
+  fname:string = "Abhay"
+  lname:string = "Kathole"
+
   constructor() { }
 
   ngOnInit(): void {
