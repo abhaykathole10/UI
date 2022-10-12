@@ -12,8 +12,6 @@ export class BooksComponent implements OnInit {
 
   isWorking: boolean = false
 
-  ///////////////////////////////////////////////////
-
   title = "My name is Abhay"
 
   constructor() { }
