@@ -11,7 +11,6 @@ export class BooksComponent implements OnInit {
   lname:string = "Kathole"
 
   isWorking: boolean = false
-
   title = "My name is Abhay"
 
   constructor() { }
