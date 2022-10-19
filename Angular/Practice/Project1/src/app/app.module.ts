@@ -15,6 +15,8 @@ import { BooksComponent } from './books/books.component';
     AppRoutingModule
   ],
   providers: [],
+
+  // First ever compoenent to load is the bootstrap
   bootstrap: [AppComponent]
 })
 export class AppModule { }
